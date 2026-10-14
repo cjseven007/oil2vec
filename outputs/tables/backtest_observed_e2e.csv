@@ -1,0 +1,31 @@
+cut,hidden_years,method,variable,median_err_%,band5-95_%,truth_inside_band
+2004,4.0,naive: hold last rate,oil,11.293790837470135,-,
+2004,4.0,naive: hold last rate,wat,-17.00169035197899,-,
+2004,4.0,F1: observed tail (blend),oil,-0.42399285371407436,-,
+2004,4.0,F1: observed tail (blend),wat,-2.6881866867755306,-,
+2004,4.0,F2: posterior ensemble (median),oil,0.6586444384505212,"[+0.37, +0.90]",False
+2004,4.0,F2: posterior ensemble (median),wat,-4.9127795724804075,"[-6.67, -2.64]",False
+2004,4.0,MIX: 50/50 of F1 and F2,oil,0.11732579236822344,"[-0.03, +0.24]",True
+2004,4.0,MIX: 50/50 of F1 and F2,wat,-3.800483129627969,"[-4.68, -2.67]",False
+2004,4.0,oracle: proxy direct (not available in the real forecast),oil,1.0284373005954872,"[+0.34, +1.62]",False
+2004,4.0,oracle: proxy direct (not available in the real forecast),wat,-3.3079554658473014,"[-5.16, -1.41]",False
+2005,3.0,naive: hold last rate,oil,5.701091024727241,-,
+2005,3.0,naive: hold last rate,wat,-10.01859194937663,-,
+2005,3.0,F1: observed tail (blend),oil,0.8115247459575199,-,
+2005,3.0,F1: observed tail (blend),wat,-5.233153565893278,-,
+2005,3.0,F2: posterior ensemble (median),oil,0.5923936653279923,"[+0.57, +0.61]",False
+2005,3.0,F2: posterior ensemble (median),wat,-3.9029233356606077,"[-4.19, -3.60]",False
+2005,3.0,MIX: 50/50 of F1 and F2,oil,0.7019592056427464,"[+0.69, +0.71]",False
+2005,3.0,MIX: 50/50 of F1 and F2,wat,-4.568038450776935,"[-4.71, -4.42]",False
+2005,3.0,oracle: proxy direct (not available in the real forecast),oil,1.1365057462075503,"[+0.73, +1.57]",False
+2005,3.0,oracle: proxy direct (not available in the real forecast),wat,-3.591101415746495,"[-4.92, -2.49]",False
+2006,2.0,naive: hold last rate,oil,1.4489252517757052,-,
+2006,2.0,naive: hold last rate,wat,-4.044157553898048,-,
+2006,2.0,F1: observed tail (blend),oil,-0.6813990791565075,-,
+2006,2.0,F1: observed tail (blend),wat,-1.3686318801237065,-,
+2006,2.0,F2: posterior ensemble (median),oil,-0.5739537765125743,"[-0.58, -0.57]",False
+2006,2.0,F2: posterior ensemble (median),wat,-2.5906825337022696,"[-2.60, -2.58]",False
+2006,2.0,MIX: 50/50 of F1 and F2,oil,-0.6276764278345506,"[-0.63, -0.63]",False
+2006,2.0,MIX: 50/50 of F1 and F2,wat,-1.979657206912988,"[-1.98, -1.97]",False
+2006,2.0,oracle: proxy direct (not available in the real forecast),oil,1.1115993961591801,"[+0.89, +1.37]",False
+2006,2.0,oracle: proxy direct (not available in the real forecast),wat,-3.4817547235656043,"[-4.23, -2.79]",False
