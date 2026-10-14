@@ -22,18 +22,13 @@ ROOT = FILE.parents[1] if FILE.parents[0].name == "src" else FILE.parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-try:
-    import src.clean as K
-    import src.config as C
-    import src.embed as E
-    import src.load_data as L
-    import src.mcmc as M
-except ImportError:
-    import clean as K
-    import config as C
-    import embed as E
-    import load_data as L
-    import mcmc as M
+
+import src.clean as K
+import src.config as C
+import src.embed as E
+import src.load_data as L
+import src.mcmc as M
+
 
 WINDOW = 8
 
